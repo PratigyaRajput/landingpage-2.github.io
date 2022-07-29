@@ -1,0 +1,30 @@
+@media (max-width:768px) {
+    .testimonial-wrapper .arrow-prevs {
+        top: 636px;
+        left: 46px;
+    }
+    .carousel-item {
+        height: 100vh;
+    }
+    .banner-wrapper img {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1279px){
+    .top-header .navbar .nav-link  {
+        font-size: 14px;
+
+    }
+    .banner-wrapper img {
+        width: 100%;
+        height: 1440px;
+
+    }
+    .testimonial-wrapper .arrow-nexts {
+        bottom: 4px;
+    }
+   
+}

@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600;900&family=Courgette&family=Pacifico&family=Poppins:wght@300;400;600;700&family=Raleway:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.main-btn {
+    background-color: #E74C3C;
+    padding: 10px;
+    color: #fff;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+
+}
+.main-btn:hover {
+    border: 2px solid #E74C3C;
+    color: #E74C3C;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header css starts */
+
+header {
+    font-family: 'Courgette', cursive;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #E74C3C;
+    border-bottom:2px solid #E74C3C;
+
+}
+.top-header{
+    background-color: #2C3E50;
+}
+.top-header .navbar .nav-link {
+    color: #fff; 
+}
+.top-header .navbar .nav-link:hover {
+    color: #E74C3C;
+}
+.top-header .navbar .nav-link:active {
+    color: #E74C3C;
+}
+/* header css ends */
+/* banner css starts */
+.banner-wrapper{
+    height: auto;
+    background-color: #000;
+    opacity: 0.9;
+}
+.carousel-item {
+    height: 84vh;
+}
+.banner-wrapper img {
+    width: 100%;
+}
+
+.carousel-caption {
+    bottom: 220px;
+
+}
+.carousel-caption h5 {
+    font-size: 36px;
+    font-weight: 600;
+} 
+.carousel-caption p{
+    font-size: 18px;
+    font-weight: 400;
+}
+/* banner css ends */
+
+/* services css starts */
+.service-wrapper{
+    padding: 80px 0;
+}
+.service-wrapper h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Courgette', cursive;
+
+}
+.service-wrapper .sub-hdng {
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A3838;
+    font-family: 'Courgette', cursive;
+
+}
+.service-wrapper .underline{
+    text-align: center;
+    height: 10px;
+    background-color: #E74C3C;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-wrapper .card {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px 0;
+
+}
+.service-wrapper .card:hover {
+    background:
+    url('../images/service/service1.jpg');
+}
+
+.service-wrapper .card .icon-box {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #2C3E50;
+    margin: 10px auto;
+    
+
+    
+}
+.service-wrapper .card .icon-box i {
+    font-size: 50px;
+    color: #E74C3C;
+
+    
+}
+.service-wrapper .service-info {
+    margin: 6px 0;
+}
+.service-wrapper .service-info h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.service-wrapper .service-info p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.service-wrapper .service-btn {
+ 
+    border: 2px solid #E74C3C;
+    color: #E74C3C;
+    background-color: transparent;
+    font-weight: 600;
+}
+    
+
+.service-wrapper .service-btn:hover {
+    background-color: #E74C3C;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* services css ends */
+
+
+
+/* about css starts */
+/* .about-wrapper
+{
+    padding: 20px 0;
+} */
+.about-wrapper h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Courgette', cursive;
+
+
+}
+.about-wrapper .sub-hdng{
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A3838;
+    font-family: 'Courgette', cursive;
+
+
+
+}
+.about-wrapper .about-content {
+    text-align: justify;
+    padding: 0px 0;
+}
+.about-wrapper img {
+    width: 100%;
+}
+.about-content .about-btn {
+    border: 2px solid #E74C3C;
+    font-weight: 600;
+    color: #E74C3C;
+    padding:10px 20px;
+    border-radius:6px ;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+.about-content .about-btn:hover {
+    background-color: #E74C3C;
+    color: #fff;
+} 
+
+/* about css ends */
+
+
+/* blog css starts */
+.blog-wrapper {
+    padding: 80px 0; 
+    background-color: #807C7C; 
+    color: #fff; 
+}
+.blog-wrapper h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Courgette', cursive;
+}
+.blog-wrapper .sub-hdng{
+    font-size: 18px;
+    font-weight: 500;
+    /* color: #3A3838; */
+    color: #fff;
+    font-family: 'Courgette', cursive;
+}
+.blog-wrapper .blog {
+    
+     box-shadow: rgba(237, 234, 234, 0.16) 0px 1px 4px;
+     margin: 30px 20px;
+     background-color: #fff;
+     
+}
+.blog-wrapper .blog h5 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    color: #000;
+
+}
+.blog-wrapper .blog p {
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 0 8px 12px 8px;
+    color: #2C3E50;
+}
+.blog-wrapper img{
+    width: 100%;
+    height: auto;
+}
+.slide-parent {
+    position: relative;
+}
+.arrow-prev {
+    color: #fff;
+    background-color: #E74C3C;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: -4%;
+}
+.arrow-next {
+    color: #fff;
+    background-color: #E74C3C;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    right: -4%;
+}
+/* blog css ends */
+
+
+/* testimonial css sstarts */
+.testimonial-wrapper{
+    padding: 80px 0;
+}
+.testimonial-wrapper h2 {
+    font-size:  50px;
+    font-weight: 700;
+    font-family: 'Courgette', cursive;
+
+}
+.testimonial-wrapper p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2C3E50;
+    font-family: 'Courgette', cursive;
+}
+.testimonial-wrapper .card {
+    padding: 20px;
+    margin:50px 20px;
+}
+.testimonial-wrapper .lower-part-testi {
+    padding-top: 10px;
+}
+.testimonial-wrapper .lower-part-testi span {
+    color: #E74C3C;
+}
+.testimonial-wrapper .lower-part-testi i {
+color: #E74C3C;
+}
+
+.testimonial-wrapper .testi-slide-parent {
+    position: relative;
+}
+.testimonial-wrapper .arrow-prevs {
+    /* position: absolute;
+    top:440px;
+    left: 48%; */
+    color: #E74C3C;
+}
+.testimonial-wrapper .arrow-nexts {
+    /* position: absolute;
+    bottom: 4px;
+    left: 50%; */
+    color: #E74C3C;
+    /* margin-left: 4px; */
+}
+/* testimonial css ends */
+
+/* footer css sarts */
+.footer-wrapper {
+    padding: 80px 0;
+    background-color: #2C3E50;
+}
+.footer-wrapper h1 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Courgette', cursive;
+    padding: 10px 0;
+
+
+}
+.footer-wrapper p {
+    color: #fff;
+    font-size: 20pxpx;
+    font-weight: 400;
+    font-family: 'Courgette', cursive;
+    padding: 0 0 10px 0;
+}
+.footer-wrapper .social-networks a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 0px 14px;
+
+}
+.footer-wrapper .social-networks a:hover {
+    background-color: #E74C3C;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-wrapper .social-networks i {
+    color: #fff;
+}
+
+
+/* scroll to top button css */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #E74C3C;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    line-height: 0;
+    border-radius: 100%;
+  }
+
+
+  /* contact css starts */
+  .contact-wrapper {
+    padding: 80px 0;
+  }
+  .contact-wrapper  h2{
+    font-size:  50px;
+  font-weight: 700;
+  font-family: 'Courgette', cursive;
+
+  }   
+  .contact-wrapper .sub-hdng {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2C3E50;
+    font-family: 'Courgette', cursive;
+  }
+
+  .contact-wrapper .card {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .contact-wrapper .card i {
+    font-size: 70px;
+    color: #3A3838;
+  }
+  .contact-wrapper .card h5 {
+    padding: 20px 0 10px 0;
+    font-weight: 600;
+  }
+  .contact-wrapper .card p {
+    font-weight: 400;
+  }
+
+  .contact-wrapper .contact-btn
+  {
+    background-color: #E74C3C;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 10px 30px;
+  }
+  .contact-wrapper .contact-btn:hover {
+    background-color: transparent;
+    border: 2px solid #E74C3C;
+    padding: 10px 20px;
+    color: #E74C3C;
+  }
+  
+/* slick css */
+.slick-dots li button:before {
+    color: #E74C3C;
+}
+.slick-dots li.slick-active button:before{
+    color: #E74C3C;
+}
+/* slick css ends */
+
+
+    
+
+
